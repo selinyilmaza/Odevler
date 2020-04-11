@@ -1,0 +1,44 @@
+C:\Users\kerem\source\repos\NDP.ÖDEV1\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.exe
+C:\Users\kerem\source\repos\NDP.ÖDEV1\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.deps.json
+C:\Users\kerem\source\repos\NDP.ÖDEV1\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.runtimeconfig.json
+C:\Users\kerem\source\repos\NDP.ÖDEV1\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.runtimeconfig.dev.json
+C:\Users\kerem\source\repos\NDP.ÖDEV1\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.dll
+C:\Users\kerem\source\repos\NDP.ÖDEV1\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.pdb
+C:\Users\kerem\source\repos\NDP.ÖDEV1\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.csprojAssemblyReference.cache
+C:\Users\kerem\source\repos\NDP.ÖDEV1\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.AssemblyInfoInputs.cache
+C:\Users\kerem\source\repos\NDP.ÖDEV1\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.AssemblyInfo.cs
+C:\Users\kerem\source\repos\NDP.ÖDEV1\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.dll
+C:\Users\kerem\source\repos\NDP.ÖDEV1\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.pdb
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.exe
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.deps.json
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.runtimeconfig.json
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.runtimeconfig.dev.json
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.dll
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.pdb
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.csprojAssemblyReference.cache
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.AssemblyInfoInputs.cache
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.AssemblyInfo.cs
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.dll
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.pdb
+C:\Users\kerem\Desktop\Ödev1.1.1\NDP.ÖDEV1 kod\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.exe
+C:\Users\kerem\Desktop\Ödev1.1.1\NDP.ÖDEV1 kod\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.deps.json
+C:\Users\kerem\Desktop\Ödev1.1.1\NDP.ÖDEV1 kod\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.runtimeconfig.json
+C:\Users\kerem\Desktop\Ödev1.1.1\NDP.ÖDEV1 kod\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.runtimeconfig.dev.json
+C:\Users\kerem\Desktop\Ödev1.1.1\NDP.ÖDEV1 kod\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.dll
+C:\Users\kerem\Desktop\Ödev1.1.1\NDP.ÖDEV1 kod\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.pdb
+C:\Users\kerem\Desktop\Ödev1.1.1\NDP.ÖDEV1 kod\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.csprojAssemblyReference.cache
+C:\Users\kerem\Desktop\Ödev1.1.1\NDP.ÖDEV1 kod\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.AssemblyInfoInputs.cache
+C:\Users\kerem\Desktop\Ödev1.1.1\NDP.ÖDEV1 kod\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.AssemblyInfo.cs
+C:\Users\kerem\Desktop\Ödev1.1.1\NDP.ÖDEV1 kod\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.dll
+C:\Users\kerem\Desktop\Ödev1.1.1\NDP.ÖDEV1 kod\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.pdb
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1 kod\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.exe
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1 kod\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.deps.json
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1 kod\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.runtimeconfig.json
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1 kod\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.runtimeconfig.dev.json
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1 kod\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.dll
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1 kod\NDP.ÖDEV1\bin\Debug\netcoreapp3.1\NDP.ÖDEV1.pdb
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1 kod\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.csprojAssemblyReference.cache
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1 kod\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.AssemblyInfoInputs.cache
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1 kod\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.AssemblyInfo.cs
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1 kod\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.dll
+C:\Users\kerem\Desktop\NDP.ÖDEV1\NDP.ÖDEV1 kod\NDP.ÖDEV1\obj\Debug\netcoreapp3.1\NDP.ÖDEV1.pdb
