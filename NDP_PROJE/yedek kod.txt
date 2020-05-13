@@ -1,0 +1,214 @@
+/****************************************************************************
+** SAKARYA ÜNİVERSİTESİ
+** BİLGİSAYAR VE BİLİŞİM BİLİMLERİ FAKÜLTESİ
+** BİLİŞİM SİSTEMLERİ MÜHENDİSLİĞİ BÖLÜMÜ
+** NESNEYE DAYALI PROGRAMLAMA DERSİ
+** 2019-2020 BAHAR DÖNEMİ
+**
+** PROJE NUMARASI.........: 01
+** ÖĞRENCİ ADI............: Selin YILMAZ
+** ÖĞRENCİ NUMARASI.......: B181200024
+** DERSİN ALINDIĞI GRUP...: A
+****************************************************************************/
+
+using System;
+
+namespace NDP_PROJE
+{
+    // tarifler için kat sayıları ve miktarları birer sınıfa aldım.
+    class kek
+    {
+        public double KatSayi;
+        public double KatSayi1;
+        public double KatSayi2;
+        public double KatSayi3;
+        public double miktar;
+        public double miktar1;
+        public double miktar2;
+        public double miktar3;
+
+    }
+    class köfte
+    {
+        public double KatSayi4;
+        public double KatSayi5;
+        public double KatSayi6;
+        public double KatSayi7;
+        public double KatSayi8;
+        public double miktar4;
+        public double miktar5;
+        public double miktar6;
+        public double miktar7;
+        public double miktar8;
+    }
+    class çorba
+    {
+        public double KatSayi9;
+        public double KatSayi10;
+        public double KatSayi11;
+        public double KatSayi12;
+        public double miktar9;
+        public double miktar10;
+        public double miktar11;
+        public double miktar12;
+    }
+    class fasulye
+    {
+        public double KatSayi13;
+        public double KatSayi14;
+        public double KatSayi15;
+        public double KatSayi16;
+        public double KatSayi17;
+        public double miktar13;
+        public double miktar14;
+        public double miktar15;
+        public double miktar16;
+        public double miktar17;
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Portakallı kakaolu kek için 1, köfte için 2, mercimek çorbası için 3 ve taze fasulye için 4 yazınız.");
+            //Kullanıcı 4 farklı yemek tarifinden birini seçiyor.
+
+            int caseSwitch;
+            caseSwitch = Convert.ToInt32(Console.ReadLine());
+
+            //Kullanıcıdan aldığımız sayının hangi tarife denk geldiğine bakıyoruz.
+            switch (caseSwitch)
+            {
+                case 1:
+                    //Kullanıcıdan yemeğin miktarı için kişi sayısı alıyoruz.
+                    int sayi;
+                    //Tarifin tek kişilik malzeme katsayılarını işlem kolaylığı için değişkenlere atadım.
+                    kek kek = new kek();
+                    kek.KatSayi = 0.5;
+                    kek.KatSayi1 = 0.25;
+                    kek.KatSayi2 = 0.16;
+                    kek.KatSayi3 = 0.33;
+
+                    Console.Write("Kekinizin kaç kişilik olmasını istediğinizi yazınız.");
+                    sayi = Convert.ToInt32(Console.ReadLine());
+                    //Malzemenin katsayıları ve aldığımız kişi sayısını çarparak doğru malzeme miktarını hesaplayıp ekrana yazıyoruz.
+                    kek.miktar = sayi * kek.KatSayi;
+                    Console.WriteLine("Yumurta {0}", kek.miktar);
+                    Console.WriteLine("Un {0}", kek.miktar);
+                    kek.miktar1 = sayi * kek.KatSayi1;
+                    Console.WriteLine("Şeker(su bardağı) {0}", kek.miktar1);
+                    kek.miktar2 = sayi * kek.KatSayi2;
+                    Console.WriteLine("Portakal {0}", kek.miktar2);
+                    Console.WriteLine("Süt(su bardağı) {0}", kek.miktar2);
+                    Console.WriteLine("Kabartma tozu(paket) {0}", kek.miktar2);
+                    Console.WriteLine("Sıvı yağ(çaybardağı) {0}", kek.miktar2);
+                    kek.miktar3 = sayi * kek.KatSayi3;
+                    Console.WriteLine("Kakao(yemek kaşığı) {0}", kek.miktar3);
+
+                    //Tarifi de ekrana yazdırıyoruz.
+                    Console.WriteLine("Yumurta ve şeker beyaz oluncaya kadar çırpın. İçine yoğurt ve sıvı yağ ilave edilerek çırpmaya devam edin. Portakalı kabukları ile birlikte bütün olarak rendeleyin. Un ve kabartma tozunu da eleyip ilave ederek tekrar çırpın.");
+                    Console.WriteLine("Karışımın yarısını ayrı bir kaseye aktarın. Buna kakao ilave edilerek karıştırın. (Arzuya göre sadece kakaolu ya da sade de yapılabilir.)");
+                    Console.WriteLine("Yağlanmış kek kalıbına bir kakaolu bir sade karışımdan sırayla dökerek 180 derece önceden ısıtılmış fırında pişirin. Dilimleyerek servis yapılır.");
+
+                    break;
+                case 2:
+                    //Kullanıcıdan yemeğin miktarı için kişi sayısı alıyoruz.
+                    int sayi2;
+                    //Tarifin tek kişilik malzeme katsayılarını işlem kolaylığı için değişkenlere atadım.
+                    köfte köfte = new köfte();
+                    köfte.KatSayi4 = 0.16;
+                    köfte.KatSayi5 = 1.33;
+                    köfte.KatSayi6 = 0.33;
+                    köfte.KatSayi7 = 0.66;
+                    köfte.KatSayi8 = 2;
+
+                    Console.Write("Köftenizin kaç kişilik olmasını istediğinizi yazınız.");
+                    sayi2 = Convert.ToInt32(Console.ReadLine());
+                    //Malzemenin katsayıları ve aldığımız kişi sayısını çarparak doğru malzeme miktarını hesaplayıp ekrana yazıyoruz.
+                    köfte.miktar4 = sayi2 * köfte.KatSayi4;
+                    Console.WriteLine("Kıyma(kilo) {0}", köfte.miktar4);
+                    köfte.miktar5 = sayi2 * köfte.KatSayi5;
+                    Console.WriteLine("Ekmek(dilim) {0}", köfte.miktar5);
+                    köfte.miktar6 = sayi2 * köfte.KatSayi6;
+                    Console.WriteLine("Soğan {0}", köfte.miktar6);
+                    Console.WriteLine("Tuz(çay kaşığı) {0}", köfte.miktar6);
+                    Console.WriteLine("Karabiber(çay kaşığı) {0}", köfte.miktar6);
+                    köfte.miktar7 = sayi2 * köfte.KatSayi7;
+                    Console.WriteLine("Yumurta {0}", köfte.miktar7);
+                    köfte.miktar8 = sayi2 * köfte.KatSayi8;
+                    Console.WriteLine("Maydanoz(dal) {0}", köfte.miktar8);
+
+                    //Tarifi de ekrana yazdırıyoruz.
+                    Console.WriteLine("Köfte için önce, bayat ekmek içini suyla ıslatıp sıkın. Kıymayı derin bir kaba alıp, soğanı rendeleyin.Üzerine ekmekleri, yumurtayı, ince kıyılmış maydanozu, karabiber ve tuzu ekleyip iyice yoğurun.Harçtan ceviz büyüklüğünde parçalar kopartıp yuvarlak veya oval köfteler hazırlayın.Kızgın sıvı yağda kızartıp, servis edin.");
+
+                    break;
+                case 3:
+                    //Kullanıcıdan yemeğin miktarı için kişi sayısı alıyoruz.
+                    int sayi3;
+                    //Tarifin tek kişilik malzeme katsayılarını işlem kolaylığı için değişkenlere atadım.
+                    çorba çorba = new çorba();
+                    çorba.KatSayi9 = 0.5;
+                    çorba.KatSayi10 = 0.16;
+                    çorba.KatSayi11 = 0.25;
+                    çorba.KatSayi12 = 1;
+
+                    Console.Write("Çorbanızın kaç kişilik olmasını istediğinizi yazınız.");
+                    sayi3 = Convert.ToInt32(Console.ReadLine());
+                    //Malzemenin katsayıları ve aldığımız kişi sayısını çarparak doğru malzeme miktarını hesaplayıp ekrana yazıyoruz.
+                    çorba.miktar9 = sayi3 * çorba.KatSayi9;
+                    Console.WriteLine("Sıvı yağ(yemek kaşığı) {0}", çorba.miktar9);
+                    çorba.miktar10 = sayi3 * çorba.KatSayi10;
+                    Console.WriteLine("Soğan {0}", çorba.miktar10);
+                    Console.WriteLine("Un(yemek kaşığı) {0}", çorba.miktar10);
+                    Console.WriteLine("Havuç {0}", çorba.miktar10);
+                    Console.WriteLine("Patates {0}", çorba.miktar10);
+                    Console.WriteLine("Tuz(tatlı kaşığı) {0}", çorba.miktar10);
+                    Console.WriteLine("Karabiber(çay kaşığı) {0}", çorba.miktar10);
+                    çorba.miktar11 = sayi3 * çorba.KatSayi11;
+                    Console.WriteLine("Mercimek(su bardağı) {0}", çorba.miktar11);
+                    çorba.miktar12 = sayi3 * çorba.KatSayi12;
+                    Console.WriteLine("Sıcak Su(su bardağı) {0}", çorba.miktar12);
+
+                    //Tarifi de ekrana yazdırıyoruz.
+                    Console.WriteLine("Derin bir tencereye sıvı yağı ekleyin. İri doğranmış soğanınızı sıvı yağ ile birlikte kavurun.Kavrulan soğanlara unu ekleyin ve kokusu çıkıp, renk alana kadar kavurma işlemini sürdürün. İri parçalar halinde doğradığınız havuç ve patatesi tencereye aktarıp karıştırmaya devam edin.Tuz, karabiber ve bol suda yıkadıktan sonra suyunu süzdürdüğünüz mercimeği  de ilave edin ve son kez güzelce karıştırın. Suyu da tencereye ilave edin.Ardından kapağını kapatın, patates ve havuçlar yumuşayana kadar ara ara karıştırarak 40 dakika kadar pişirin.Çorba piştikten sonra pürüzsüz bir kıvam alması için; el blenderından geçirin. 5 dakika daha pişirdikten sonra ocaktan alın. Servis edebilirsiniz.");
+
+                    break;
+                case 4:
+                    //Kullanıcıdan yemeğin miktarı için kişi sayısı alıyoruz.
+                    int sayi4;
+                    //Tarifin tek kişilik malzeme katsayılarını işlem kolaylığı için değişkenlere atadım.
+                    fasulye fasulye = new fasulye();
+                    fasulye.KatSayi13 = 0.15;
+                    fasulye.KatSayi14 = 1.25;
+                    fasulye.KatSayi15 = 0.25;
+                    fasulye.KatSayi16 = 0.5;
+                    fasulye.KatSayi17 = 0.75;
+
+                    Console.Write("Taze fasulyenizin kaç kişilik olmasını istediğinizi yazınız.");
+                    sayi4 = Convert.ToInt32(Console.ReadLine());
+                    //Malzemenin katsayıları ve aldığımız kişi sayısını çarparak doğru malzeme miktarını hesaplayıp ekrana yazıyoruz.
+
+                    fasulye.miktar14 = sayi4 * fasulye.KatSayi14;
+                    Console.WriteLine("Zeytin Yağı(yemek kaşığı) {0}", fasulye.miktar14);
+                    fasulye.miktar15 = sayi4 * fasulye.KatSayi15;
+                    Console.WriteLine("Soğan {0}", fasulye.miktar15);
+                    Console.WriteLine("Sıcak su(su bardağı) {0}", fasulye.miktar15);
+                    Console.WriteLine("Toz şeker(çay kaşığı) {0}", fasulye.miktar15);
+                    fasulye.miktar16 = sayi4 * fasulye.KatSayi16;
+                    Console.WriteLine("Sarımsak(diş) {0}", fasulye.miktar16);
+                    Console.WriteLine("Tuz(çay kaşığı) {0}", fasulye.miktar16);
+                    fasulye.miktar17 = sayi4 * fasulye.KatSayi17;
+                    Console.WriteLine("Domates {0}", fasulye.miktar17);
+                    fasulye.miktar13 = sayi4 * fasulye.KatSayi13;
+                    Console.WriteLine("Fasulye(kilo) {0}", fasulye.miktar13);
+
+                    //Tarifi de ekrana yazdırıyoruz.
+                    Console.WriteLine("Soğanları küçük küpler halinde kesin. Sarımsakları ince ince dilimleyin. Domatesleri rendeleyin. Fasulyeleri de ayıklayarak bir köşeye alın. Zeytinyağını bir tencerede kızdırın.Doğradığınız soğanı ve sarımsakları hafif bir renk alana kadar kavurun.Doğranmış taze fasulyeyi de ekleyerek kavurma işlemini sürdürün.Tuz, toz şeker, domates ve sıcak suyu da ekledikten sonra güzelce karıştırın.Kapağını kapatıp fasulyeler yumuşayana kadar kısık ateşte pişirmeye bırakın.Arzuya göre ılık, fakat daha da lezzetli olması için soğuk olarak servis edin. Afiyet olsun!");
+
+                    break;
+                default:
+                    Console.WriteLine("Default case");
+                    break;
+            }
+        }
+    }
+}
